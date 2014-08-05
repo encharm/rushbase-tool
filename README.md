@@ -35,13 +35,21 @@ Operations:
 ### Examples
 
 * Upload multiple files
+ 
 `rushbase -u maxxy -p mypassword -d ut.rushbase.net/maxxy/screenshots screenshot1.png screenshot2.png`
+
 * Delete above screenshots
+* 
 `rushbase -u maxxy -p mypassword -d ut.rushbase.net/maxxy/screenshots -r screenshot1.png -r screenshot2.png`
+
 * Create directory
+
 `rushbase -u maxxy -p mypassword -d ut.rushbase.net/maxxy/screenshots -m staging`
+
 * Upload to new directory
+
 `rushbase -u maxxy -p mypassword -d ut.rushbase.net/maxxy/screenshots/staging screenshot1.png screenshot2.png`
+
 
 ### Author 
 Damian "Rush" Kaczmarek <rush@rushbase.net>
