@@ -39,7 +39,7 @@ Operations:
 `rushbase -u maxxy -p mypassword -d ut.rushbase.net/maxxy/screenshots screenshot1.png screenshot2.png`
 
 * Delete above screenshots
-* 
+
 `rushbase -u maxxy -p mypassword -d ut.rushbase.net/maxxy/screenshots -r screenshot1.png -r screenshot2.png`
 
 * Create directory
