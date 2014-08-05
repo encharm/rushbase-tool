@@ -105,6 +105,9 @@ static void printhelp(const char* name)
     printf("                            (may be set via environment RUSHBASE_USERNAME)\n");
     printf("          --password    -p  Set password\n");
     printf("                            (may be set via environment RUSHBASE_PASSWORD)\n");
+    printf("Operations:\n");
+    printf("          --mkdir <name> -m <name>  Create directory\n");
+    printf("          --rm    <name> -r <name>  Remove file\n");
 //    printf("          --save        -s  Save username and password\n");
 //    printf("                            (to $HOME/.<destination's domain>)\n");   
 }
